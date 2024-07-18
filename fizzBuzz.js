@@ -1,39 +1,28 @@
-// Desafio de programacao FizzBuzz
+// Desafio de programação FizzBuzz
 let numeros = [];
-let contador = 1; 
+let contador = 1;
 
 function fizzBuzz() {
-    // Imprime "FizzBuzz" se for divisivel por 3 e 5
-    if (contador % 3 === 0 && contador % 5 === 0) {
-        numeros.push("FizzBuzz");
+    // Contagem de 1 a 100
+    while (contador <= 100) {
+        // Se um número for múltiplo de 3 e de 5, imprima "FizzBuzz"
+        if (contador % 3 === 0 && contador % 5 === 0) {
+            numeros.push("FizzBuzz");
+        } // Se um número for múltiplo de 3, imprima "Fizz"
+        else if (contador % 3 === 0) {
+            numeros.push("Fizz");
+        } // Se um número for múltiplo de 5, imprima "Buzz"
+        else if (contador % 5 === 0) {
+            numeros.push("Buzz");
+        } else {
+            numeros.push(contador);
+        }
+        // Soma +1 a cada chamada da função
+        contador++;
     } 
-    	// Imprime "Fizz" se for divisivel por 3
-    	else if (contador % 3 === 0) {
-        numeros.push("Fizz");
-    	// Imprime "Buzz" se for divisivel por 5 
-    	} else if (contador % 5 === 0) {
-        numeros.push("Buzz");
-    	// Imprime apenas o numero se nao for divisivel por 3 ou 5
-    	} else {
-        numeros.push(contador);
-    	}
-    
-    contador++;
+    // Imprime os números dentro da lista
     console.log(numeros);
 }
-// Testes 
-fizzBuzz();
-fizzBuzz();
-fizzBuzz();
-fizzBuzz();
-fizzBuzz();
-fizzBuzz();
-fizzBuzz();
-fizzBuzz();
-fizzBuzz();
-fizzBuzz();
-fizzBuzz();
-fizzBuzz();
-fizzBuzz();
-fizzBuzz();
+
+// Resultado
 fizzBuzz();
