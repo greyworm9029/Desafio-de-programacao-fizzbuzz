@@ -7,4 +7,4 @@ Desafio FizzBuzz em JavaScript
 
 3 - Numeros divisiveis por 5 terao de ser impressos com a palavra "Buzz" ao inves de numeros, como normalmente.
 
-4 - Numeros divisiveis por 3 e por 5 terao ao mesmo tempo, terao de ser impressos com a palavra "FizzBuzz" ao inves de numeros, como normalmente.
+4 - Numeros divisiveis por 3 e por 5, terao de ser impressos com a palavra "FizzBuzz" ao inves de numeros, como normalmente.
